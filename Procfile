@@ -1,1 +1,1 @@
-worker:python iris.py
+worker: python iris.py
