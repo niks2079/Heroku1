@@ -84,4 +84,4 @@ layout = html.Div(children=[header, row1, row2], style={"text-align": "center"})
 app.layout = layout
 
 if __name__ == "__main__":
-    app.run_server(debug=False)
+    app.run_server(debug=True)
