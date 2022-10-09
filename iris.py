@@ -6,8 +6,7 @@ import plotly.express as px
 
 
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import html, dcc
 
 iris = load_iris() ## It returns simple dictionary like object with all data.
 
