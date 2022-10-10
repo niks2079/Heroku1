@@ -1,1 +1,1 @@
-worker: python iris.py
+web: gunicorn app:server --timeout 300
